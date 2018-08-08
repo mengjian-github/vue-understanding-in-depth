@@ -1,0 +1,24 @@
+{
+  "name": "vue-understanding-in-depth",
+  "version": "1.0.0",
+  "description": "深入理解Vue",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erasermeng/vue-understanding-in-depth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erasermeng/vue-understanding-in-depth/issues"
+  },
+  "homepage": "https://github.com/erasermeng/vue-understanding-in-depth#readme",
+  "devDependencies": {
+    "vuepress": "^0.13.1"
+  }
+}

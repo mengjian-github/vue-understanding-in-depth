@@ -7,7 +7,7 @@ module.exports = {
     nav: [
       {
         text: "开始阅读",
-        link: "/history/"
+        link: "/history/naive_implementation"
       },
       {
         text: "视频学习参考",

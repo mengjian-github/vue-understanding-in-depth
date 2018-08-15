@@ -7,16 +7,25 @@ module.exports = {
     nav: [
       {
         text: "开始阅读",
-        link: "/main/"
+        link: "/history/"
       },
       {
         text: "视频学习参考",
         link: "https://coding.imooc.com/class/228.html"
       }
     ],
-    sidebar: "auto",
+    sidebar: [
+      {
+        title: "追寻历史的脚步",
+        collapsable: true,
+        children: ["/history/naive_implementation"]
+      }
+    ],
     lastUpdated: "Last Updated",
     repo: "erasermeng/vue-understanding-in-depth",
     docsDir: "docs"
+  },
+  markdown: {
+    // lineNumbers: true
   }
 };

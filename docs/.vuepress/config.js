@@ -8,17 +8,14 @@ module.exports = {
       {
         text: "开始阅读",
         link: "/history/naive_implementation"
-      },
-      {
-        text: "视频学习参考",
-        link: "https://coding.imooc.com/class/228.html"
       }
     ],
+    displayAllHeaders: true,
     sidebar: [
       {
         title: "追寻历史的脚步",
         collapsable: true,
-        children: ["/history/naive_implementation"]
+        children: ["/history/naive_implementation", "/history/first_milestone"]
       }
     ],
     lastUpdated: "Last Updated",
